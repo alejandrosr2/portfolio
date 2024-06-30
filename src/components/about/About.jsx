@@ -5,7 +5,7 @@ import { Card } from "../ui/card"
 
 const About = () => {
     return (
-        <div className="container pt-20">
+        <div className="container pt-20 pb-20">
             <Card className="container md:p-10 gap-4 bg-[#D4D9DB] dark:bg-zinc-800 border-none h-full md:flex mb-2">
                 <div className="flex-1 md:order-2 py-4">
                     <img src={yo} alt="Yo"  className="rounded-xl object-cover drop-shadow"/>
