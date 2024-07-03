@@ -114,7 +114,7 @@ const GridDos = () => {
                 <div className="flex-1 mb-4">
                     <Card className="bg-[#D4D9DB] border-none h-full flex items-center justify-center overflow-hidden mb-2">
                         <CardContent className="dark:text-zinc-800 font-semibold h-full flex pt-6 ">
-                            Estoy ansioso por contribuir a un equipo dinámico donde pueda seguir creciendo y aplicando mis habilidades para crear productos excepcionales.
+                            Estoy ilusionado por contribuir a un equipo dinámico donde pueda seguir creciendo y aplicando mis habilidades para crear productos excepcionales.
                         </CardContent>
                     </Card>
                 </div>

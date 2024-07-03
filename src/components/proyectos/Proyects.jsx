@@ -5,10 +5,14 @@ import { ArrowUpRight } from "lucide-react";
 
 const Proyects = () => {
     return (
-        <div className="container pb-20">
-            <div className="pt-10">
-                <h1 className="text-3xl font-semibold pb-2 dark:text-zinc-200">Estos son algunos de los proyectos personales que he realizado.</h1>
-                <p className="dark:text-zinc-300 md:text-lg">Aunque he realizado numerosos proyectos, estos son actualmente los que mejor pueden mostrar mis capacidades.</p>
+        <div className="container pb-20 pt-10">
+            <div className="">
+                <h1 className="text-3xl font-semibold pb-2 dark:text-zinc-200">
+                    Proyectos personales destacados.
+                </h1>
+                <p className="dark:text-zinc-300 md:text-lg">
+                    He realizado numerosos proyectos para practicar, aprender y desarrollar mi habilidad para resolver problemas. A continuación, presento una selección de los que mejor demuestran mis capacidades.
+                </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 pt-10 gap-16 ">
                 <div className="flex flex-col border border-zinc-200 drop-shadow-sm rounded-md p-2 dark:bg-zinc-800 dark:border-zinc-700 ">
