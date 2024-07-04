@@ -1,6 +1,7 @@
 import { Card } from "../ui/card"
 import proyecto from "../../assets/proyecto1.png";
 import proyecto2 from "../../assets/proyecto2.png";
+import proyecto3 from "../../assets/proyecto3.png";
 import { ArrowUpRight } from "lucide-react";
 
 const Proyects = () => {
@@ -15,6 +16,7 @@ const Proyects = () => {
                 </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 pt-10 gap-16 ">
+                {/* Proyecto 1 */}
                 <div className="flex flex-col border border-zinc-200 drop-shadow-sm rounded-md p-2 dark:bg-zinc-800 dark:border-zinc-700 ">
                     <Card className="flex-1 dark:bg-zinc-800 border-none h-full w-full mb-2 ">
                         <a href="https://finace-tracking.vercel.app/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 scale-95 hover:scale-100 transition-all duration-300">
@@ -39,6 +41,7 @@ const Proyects = () => {
                         </p>
                     </div>
                 </div>
+                {/* Proyecto 2 */}
                 <div className="flex flex-col border border-zinc-200 dark:border-zinc-700 drop-shadow-sm rounded-md p-2 dark:bg-zinc-800 ">
                     <Card className="flex-1 dark:bg-zinc-800 border-none h-full w-full mb-2">
                         <a href="https://example-shop.vercel.app/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 scale-95 hover:scale-100 transition-all duration-300">
@@ -59,6 +62,30 @@ const Proyects = () => {
                         </div>
                         <p className="dark:text-zinc-300">
                             Un ejemplo de página principal para un negocio online.
+                        </p>
+                    </div>
+                </div>
+                {/* Proyecto 3 */}
+                <div className="flex flex-col border border-zinc-200 drop-shadow-sm rounded-md p-2 dark:bg-zinc-800 dark:border-zinc-700 ">
+                    <Card className="flex-1 dark:bg-zinc-800 border-none h-full w-full mb-2 ">
+                        <a href="https://color-test-plum.vercel.app/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 scale-95 hover:scale-100 transition-all duration-300">
+                            <img src={proyecto3} alt="" className="rounded-sm" />
+                        </a>
+                    </Card>
+                    <div className="flex gap-4 py-2 dark:text-zinc-300 overflow-auto text-sm md:text-base">
+                        <p className="border border-zinc-200 drop-shadow-sm rounded-full px-2">React</p>
+                        <p className="border border-zinc-200 drop-shadow-sm rounded-full px-2">JavaScript</p>
+                        <p className="border border-zinc-200 drop-shadow-sm rounded-full px-2">Tailwind</p>
+                    </div>
+                    <div className="flex-1">
+                        <div className=" pb-2 dark:text-zinc-200">
+                            <a href="https://color-test-plum.vercel.app/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 hover:underline transition-all duration-300">
+                                <h2 className="text-xl font-semibold">Color Test</h2>
+                                <ArrowUpRight className="size-4" />
+                            </a>
+                        </div>
+                        <p className="dark:text-zinc-300">
+                            Una aplicación en la que poder ver distintos estilos de colores para servirte de ejemplo en tu proyecto.
                         </p>
                     </div>
                 </div>
