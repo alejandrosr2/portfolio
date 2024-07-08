@@ -11,7 +11,7 @@ import tailwind from "../../assets/tailwindcss.svg"
 import react from "../../assets/react2.svg"
 import next from "../../assets/nextdotjs.svg"
 import Btn from "../Btn";
-import { Check, Github, Linkedin, Mail } from "lucide-react";
+import { Check, FileText, Github, Linkedin, Mail } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const GridDos = () => {
@@ -106,6 +106,9 @@ const GridDos = () => {
                         </li>
                         <li>
                             <a href="https://www.linkedin.com/in/alejandro-soler-rond%C3%A1n-10587b299/" className="hover:dark:text-black hover:scale-105 duration-300 dark:text-zinc-800 flex font-semibold gap-5"><Linkedin />Linkedin</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/alejandrosr2/curriculum/blob/main/CurriculumAlejandroSolerRondan.pdf" className="hover:dark:text-black hover:scale-105 duration-300 dark:text-zinc-800 flex font-semibold gap-5"><FileText/>Currículum</a>
                         </li>
                     </ul>
                 </Card>
